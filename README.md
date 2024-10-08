@@ -45,7 +45,7 @@ add ports :
 
 ![docker_compose_ip_https](https://github.com/user-attachments/assets/4b3db4c4-e7b8-4fe0-aa1a-1a22dcad4061)
 
-Visit (https://35.84.179.79:444)/ to see the HTML page in action.
+Visit https://35.84.179.79:444 to see the HTML page in action.
 
 
 
