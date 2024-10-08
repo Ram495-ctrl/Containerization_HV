@@ -33,7 +33,7 @@ docker build -t nginx-html .
 
 2. Run the container locally:
 
-![docker_image](https://github.com/user-attachments/assets/1992f83f-d0fe-4be0-a191-374f50fa873a)
+
 
 3. Checking the Nginx with EC2 ip address:
 
@@ -41,7 +41,8 @@ add ports :
 
 ![ports](https://github.com/user-attachments/assets/6640c732-abec-4dc1-b8df-9f72097d8808)
 
-![docker_compose_ip](https://github.com/user-attachments/assets/13eab417-e91b-4d2d-b756-ce2b4aab447f)
+<img width="475" alt="image" src="https://github.com/user-attachments/assets/d12a21de-c781-467c-98ff-c3423a64fc72">
+
 
 ![docker_compose_ip_https](https://github.com/user-attachments/assets/4b3db4c4-e7b8-4fe0-aa1a-1a22dcad4061)
 
@@ -51,7 +52,9 @@ Visit https://35.84.179.79:444 to see the HTML page in action.
 
 Login to ECR:
 
+```
 aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 975050024946.dkr.ecr.us-west-2.amazonaws.com
+```
 
 <h1> Generate Certificates <h1>
 
