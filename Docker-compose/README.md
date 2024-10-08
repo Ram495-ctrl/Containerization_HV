@@ -76,6 +76,14 @@ docker run -d -p 80:80 -p 443:443 --name my-nginx-container my-nginx-html
 ```
 docker compose up -d
 ```
+![docker_compose](https://github.com/user-attachments/assets/7631b6db-97ec-4bd5-9a4c-3df1844e8944)
+
+![httpwebiste](https://github.com/user-attachments/assets/22b1db8a-3daa-4d7b-91e7-a8840e8b61fe)
+
+![trust](https://github.com/user-attachments/assets/d33ef596-37f4-477d-bf87-132a14ce57dd)
+
+![https_website](https://github.com/user-attachments/assets/2fd1da66-8913-4978-a4c0-a38c682c3b18)
+
 
 
 ## HTTPS Support
