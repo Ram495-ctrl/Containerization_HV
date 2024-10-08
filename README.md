@@ -47,5 +47,13 @@ add ports :
 
 Visit https://35.84.179.79:444 to see the HTML page in action.
 
+<h1> Pushing the Image to Amazon ECR <h1>
 
+Login to ECR:
+
+aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 975050024946.dkr.ecr.us-west-2.amazonaws.com
+
+<h1> Generate Certificates <h1>
+
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout nginx-selfsigned.key -out nginx-selfsigned.crt
 
