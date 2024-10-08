@@ -1,6 +1,8 @@
 <h1> Graded Assignment on Dockerizing a Plain HTML Page With Nginx 
 <h1> Dockerized Nginx Serving HTML <h1>
 
+Git repo url: https://github.com/Ram495-ctrl/Containerization_HV.git
+
 This project contains a simple HTML page served using Nginx in a Docker container.
 
 <h1> Files <h1>
