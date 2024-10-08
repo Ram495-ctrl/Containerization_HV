@@ -34,7 +34,6 @@ docker build -t nginx-html .
 2. Run the container locally:
 
 
-
 3. Checking the Nginx with EC2 ip address:
 
 add ports :
@@ -44,7 +43,8 @@ add ports :
 <img width="475" alt="image" src="https://github.com/user-attachments/assets/d12a21de-c781-467c-98ff-c3423a64fc72">
 
 
-![docker_compose_ip_https](https://github.com/user-attachments/assets/4b3db4c4-e7b8-4fe0-aa1a-1a22dcad4061)
+<img width="437" alt="image" src="https://github.com/user-attachments/assets/94534621-1488-4cdf-859e-c5a8bad830bb">
+
 
 Visit https://35.84.179.79:444 to see the HTML page in action.
 
