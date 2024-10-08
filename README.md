@@ -35,7 +35,8 @@ docker build -t nginx-html .
 
 2. Run the container locally:
 
-<img width="1215" alt="image" src="https://github.com/user-attachments/assets/64e982ac-2942-430c-8fdb-cf247dbfef4b">
+<img width="1222" alt="image" src="https://github.com/user-attachments/assets/e311289f-a50e-4e54-9770-71bdcc93520f">
+
 
 3. Checking the Nginx with EC2 ip address:
 
