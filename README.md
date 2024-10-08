@@ -55,6 +55,13 @@ Login to ECR:
 ```
 aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 975050024946.dkr.ecr.us-west-2.amazonaws.com
 ```
+Tag the image:
+
+docker tag docker-compose-nginx:latest 975050024946.dkr.ecr.us-west-2.amazonaws.com/ram-ecr/my-nginx:1
+
+push the image:
+
+docker push 975050024946.dkr.ecr.us-west-2.amazonaws.com/ram-ecr/my-nginx:1
 
 <h1> Generate Certificates <h1>
 
